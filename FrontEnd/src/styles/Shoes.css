@@ -1,0 +1,185 @@
+/* .Shoes {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background-image: linear-gradient(45deg, #7bf7fd, #cffafc);
+}
+.shoes-container {
+  width: 70%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 5% 90%;
+}
+.shoes-holder {
+  width: 100%;
+  margin-top: 2em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.shoes-header > h1 {
+  font-size: 3em;
+  margin: 0;
+}
+.shoes-item {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr;
+  place-items: center;
+  gap: 1em;
+}
+.shoes-item-description > h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+.shoes-item-description > p {
+  font-size: 1.3em;
+}
+.see-all {
+  background: #050b63;
+  color: #cffafc;
+  display: flex;
+  justify-content: start;
+  padding: 0.25em;
+  font-size: 1.2em;
+  align-items: center;
+  width: 40%;
+}
+.shoes-display > img {
+  border-radius: 0.5em;
+  width: 100%;
+  height: 100%;
+ 
+} */
+/* img {
+  width: 100px;
+  height: 100px;
+} */
+.Shoes {
+  width: 70%;
+  place-self: center;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.shoes-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 0.1fr 1fr 1fr;
+}
+.shoes-item {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr;
+  gap: 1em;
+}
+.shoes-item > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.shoes-header {
+  font-size: 2em;
+  margin: 0;
+}
+
+.shoes-item-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: start; */
+  margin: 0;
+}
+.shoes-item-description > h1 {
+  font-size: 2em;
+  margin: 0;
+}
+.shoes-item-description > p {
+  font-size: 1.2em;
+}
+.see-all {
+  background: #050b63;
+  color: #cffafc;
+  padding: 0.3em;
+  display: flex;
+  align-items: center;
+}
+.shoes-display {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.shoes-display > img {
+  width: 90%;
+  height: 80%;
+  object-position: center;
+  border-radius: 0.3em;
+  box-shadow: 0 1.2em 2em #00000080;
+}
+/* width */
+@media screen and (max-width: 441px) {
+  .shoes-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 580px) {
+  .shoes-header > h1 {
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: bold;
+  }
+  .shoes-item-description > h1 {
+    font-size: 1em;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  .shoes-item-description > p {
+    font-size: 0.8em;
+    text-indent: 0.1em;
+    text-align: center;
+  }
+  .see-all {
+    width: 40%;
+    font-size: 0.7em;
+    padding: 0.1em;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .shoes-item {
+    grid-template-rows: 0.3fr 2fr;
+    grid-template-columns: 1fr;
+    gap: 0.5em;
+  }
+
+  .shoes-display > img {
+    width: 80%;
+    height: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Shoes {
+    width: 95%;
+  }
+}
+/* height */
+@media screen and (max-height: 475px) {
+  .Shoes {
+    height: auto;
+  }
+}

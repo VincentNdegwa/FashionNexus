@@ -1,0 +1,11 @@
+.men-upper-item {
+  grid-template-columns: 40% 60%;
+}
+.essential-holder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 1em;
+  grid-template-rows: 25% 75%;
+  align-items: center;
+}

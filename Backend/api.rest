@@ -1,0 +1,11 @@
+GET  http://localhost:5000/api/v1/data
+
+###
+GET http://localhost:5000/api/v1/data/products
+?price=200
+&priceValue=gt
+
+###
+GET http://localhost:5000/api/v1/data/static
+
+
